@@ -33,11 +33,11 @@ window.onload = (event) => {
     getValue(inputElementArray);
 }
 
-// Checking every 100 ms whether the data in the local storage is changed
+// Checking whether the data in the local storage is changed
 // If so, updating the data in the form
-let storageCheckTimer = setInterval(function() {
+window.onstorage = event => {
     getValue(inputElementArray);
-}, 100);
+};
 
 // Storing form data collectively in localStorage when submit button is pressed
 // Also, removing individual data from localStorage
