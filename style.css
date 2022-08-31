@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+nav {
+    height: 48px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    gap: 84px;
+    margin-bottom: 36px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    background-color: #222226;
+}
+
+#form-link,
+#history-link {
+    color: white;
+    text-decoration: none;
+}
+
+#form-link {
+    margin-left: 30.55%;
+}
+
+#history-link {
+
+}
